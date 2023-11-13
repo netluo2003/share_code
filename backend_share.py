@@ -8,6 +8,7 @@ import time
 stock_info_a_code_name_df = ak.stock_info_a_code_name()
 # print(stock_info_a_code_name_df)
 
+############################################################################
 # 其他几种获得股票代码的方法，信息更为丰富
 # stock_info_sh_name_code_df = ak.stock_info_sh_name_code(symbol="主板A股")
 # print(stock_info_sh_name_code_df)
@@ -17,6 +18,7 @@ stock_info_a_code_name_df = ak.stock_info_a_code_name()
 
 # stock_info_bj_name_code_df = ak.stock_info_bj_name_code()
 # print(stock_info_bj_name_code_df)
+############################################################################
 
 # 将股票名写入文件,使用feather格式，名字为 "CodeName+日期.dat"
 today_tuple = time.localtime(time.time())[0:3]
