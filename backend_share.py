@@ -38,4 +38,4 @@ for i in tool_trade_date_hist_sina_df[::-1].index:
         trade_list_30 = [str(i) for i in tool_trade_date_hist_sina_df[i-29:i+1]['trade_date']]
         break
         # trade_list_30 = [str(i) for i in list(tool_trade_date_hist_sina_df[i:30])]
-# 2.2
+# 2.2 获得数据
