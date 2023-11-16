@@ -75,4 +75,6 @@ for i in stock_info_a_code_name_df['code']:
 # frames = [process_your_file(f) for f in files]
 # result = pd.concat(frames)
 
-data_60_df = pd.concat(data_60,)
+data_60_df = pd.concat(data_60)
+
+data_60_df.to_feather('./data/'+today+'-data')
